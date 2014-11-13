@@ -1,0 +1,34 @@
+[
+{	"id": "steve-martin",
+	"name": "Steve Martin",
+	"stats": {
+		"born": "January 5th, 1994",
+		"mediums": "stand-up, film",
+		"years-active": "1965-present"
+	},
+	"bio": "Martin came to public notice as a writer for the Smothers Brothers Comedy Hour\n
+			heyy."
+},
+
+{
+	"id": "louis-ck",
+	"name": "Louis CK",
+	"stats": {
+		"born": "February 9th, 1978",
+		"mediums": "stand-up, film, television",
+		"years-active": "1990-present"
+	},
+	"bio": "Louis C.K. is an American comedian, editor, writer, producer"
+},
+
+{
+	"id": "dana-gould",
+	"name": "Dana Gould",
+	"stats": {
+		"born": "February 9th, 1978",
+		"mediums": "stand-up, film, television",
+		"years-active": "1990-present"
+	},
+	"bio": "Louis C.K. is an American comedian, editor, writer, producer"
+}
+]
