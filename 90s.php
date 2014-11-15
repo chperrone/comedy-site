@@ -20,17 +20,17 @@
 
 <script type="text/javascript">
     //Set header and current year
-    $('.header h1').text('The 1990s');
-    $('#nav li').eq(2).attr('id', 'current');
+    $('.nav li').eq(2).attr('id', 'current');
 </script>
 
 <!-- Set Color Scheme-->
 <style type="text/css">
 .color-b { background-color: rgb(0, 131, 96); }
 .color-c { color: rgb(0, 131, 96); }
-#nav li div { border: 5px solid rgb(0, 131, 96); }
-#current div { color: rgb(0, 131, 96); }
-#current a span { color: rgb(0, 131, 96); }
+ul.nav li { transition: .75s ease-out; }
+ul.nav li a { border: 5px solid rgb(0, 131, 96); }
+li#current a { color: rgb(0, 131, 96); }
+li#current span { color: rgb(0, 131, 96); }
 </style>
 
 <!-- ====================================
@@ -39,8 +39,15 @@
 <div class="row yellow">
     <div class="gdcenter">
         <h3 class="color-c">The great success of stand up in the 80s was no doubt beneficial. 
-        New audiences had been reached and stars had been made.  Few thought that there was
-        anywhere to go but up.
+            New audiences had been reached and stars had been made.  Comedians had broken through
+            into mainstream culture and there was money to be made.  Success continued into the early 90s and
+            few thought that there was anywhere to go but up.
+        </h3>
+
+        <h3 class="grey">The great success of stand up in the 80s was no doubt beneficial. 
+            New audiences had been reached and stars had been made.  Comedians had broken through
+            into mainstream culture and there was money to be made.  Success continued into the early 90s and
+            few thought that there was anywhere to go but up.
         </h3>
     </div>
 </div>
@@ -50,40 +57,55 @@
 ====================================== -->
 <div class="row">
     <div class="gdcenter">
+
         <h1>The Boom Continues</h1>
-        [The networks’] feeling was, 'We're usually hoping actors can be funny. Why not go with people who 
-        we already know are funny and then show them how to act?'”</br></br>
-        The progress of stand-up in the 80s continued into the early 90s.  Sitcoms like Roseanna, 
-        Home Improvement and of course, Seinfeld took America by storm.  The though was, that if you
-        could find people who were already funny and who already had a dedicated audience, taking them to
-        television was going to be a homerun.  Network executives began flooding to the clubs to find the 
-        next great voice.  They scoured New York and Boston looking for funny comics in the hopes of developing
-        shows around them.</br></br>
-        Perhaps the most fertile feeding ground was the 'Just For Laughs festival in Montreal'.  Networks came with
-        full pockets ready to find the funniest people.  Bidding wars rose out of competition for talent.</br></br>
-        By 1996, every major network had at least one sitcom featuring a comedian.  The market became so oversaturated
-        that the quality of stand in the clubs and on tv diminshed.  Comics who simply weren't ready for television
-        were getting pickedup and dropped so quickly.
+
+        <div class="col4">
+            <p class="quote">
+            [The networks’] feeling was, 'We're usually hoping actors can be funny. Why not go with people who 
+            we already know are funny and then show them how to act?'”
+            </p>
+        </div>
+
+        <div class="col6">
+            <p>The progress of stand-up in the 80s continued into the early 90s.  Sitcoms like Roseanna, 
+            Home Improvement and of course, Seinfeld took America by storm.  The though was, that if you
+            could find people who were already funny and who already had a dedicated audience, taking them to
+            television was going to be a homerun.  Network executives began flooding to the clubs to find the 
+            next great voice.  They scoured New York and Boston looking for funny comics in the hopes of developing
+            shows around them.
+            </p>
+
+            <p>Perhaps the most fertile feeding ground was the 'Just For Laughs festival in Montreal'.  Networks came with
+            full pockets ready to find the funniest people.  Bidding wars rose out of competition for talent.</br></br>
+            By 1996, every major network had at least one sitcom featuring a comedian.  The market became so oversaturated
+            that the quality of stand in the clubs and on tv diminshed.  Comics who simply weren't ready for television
+            were getting pickedup and dropped so quickly.
+            </p>
+        </div>
 
         <div class="col12">
             <h1>Alternative Comedy</h1>
         </div>
         <div class="col12">
             <div class="col5">
+                
                 <p>Out of the 80s, comedians had to work 
                 hard to eschew genre stereotypes.  A new genre of joke telling arose out of this 
                 tumultuous era. Primarily on the west coast, new alternative comics began telling 
                 structurally different stories and abandoning the setup punchline form. They appreciate
                 monologues and performance versus normal jokes. The comedy is more surreal. Comics like 
                 David Cross, Patton Oswalt and Sarah Silverman were all part of this scene.
-                </br></br>
-                For the most part, this type of comedy was performed outside of traditional mainstream
-                 clubs and theaters.  Much of this style drew upon character-based and surreal humor.
-                This once underground style made its way from the underground to the mainstream. Alt 
-                comics became alt stars and comedy became viable and</p>
+
+                <p>For the most part, this type of comedy was performed outside of traditional mainstream
+                    clubs and theaters.  Much of this style drew upon character-based and surreal humor.
+                    This once underground style made its way from the underground to the mainstream. Alt 
+                    comics became alt stars and comedy became viable and
+                </p>
+
             </div>
             <div class="col6 last">
-                <img src="img/dana-gould.jpg">
+               <iframe width="100%" height="360" src="http://www.youtube.com/embed/SsrJBds1ds4?rel=0&start=120&end=180&autoplay=1" frameborder="0" allowfullscreen></iframe>
                 <p class="f-caption">
                 A young Dana Gould.  Patton Oswalt has gone on record naming Gould the main creative 
                 force behind the absurdist and surreal comedy scenes in the 90s.
@@ -129,7 +151,9 @@
     </a>
 </div>
 
-<!-- [ LIGHTBOXES ]-->
+<!-- =============================
+     LIGHTBOXES 
+     ============================= -->
 
 <div class="all-lightboxes">
 </div>

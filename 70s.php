@@ -19,17 +19,20 @@
 
 <script type="text/javascript">
     //Set header and current year
-    $('.header h1').text('The 1970s');
-    $('#nav li').eq(0).attr('id', 'current');
+    $( '.nav li' ).eq(0).attr('id', 'current');
 </script>
 
 <!-- Set Color Scheme-->
 <style type="text/css">
 .color-b { background-color: rgb(169, 28, 69); }
 .color-c { color: rgb(169, 28, 69); }
-#nav li div { border: 5px solid rgb(169, 28, 69); }
-#current div { color: rgb(169, 28, 69); }
-#current a span { color: rgb(169, 28, 69); }
+ul.nav li { transition: .75s ease-out; }
+ul.nav li a { border: 5px solid rgb(169, 28, 69); }
+li#current a { color: rgb(169, 28, 69); }
+li#current a span { color: rgb(169, 28, 69); }
+
+
+
 </style>
 
 <!-- ====================================
@@ -38,18 +41,21 @@
 <div class="row yellow">
     <div class="gdcenter">
         <div class="row">
-            <h3 class="red-text">After the turbulent 1960’s counter-culture movement,
-                comedy was beginning to move in a new direction. The
-                momentum and passion from the 60’s carried through
-                Comedians like Lenny Bruce had begun stirring up
+
+            <h3 class="red-text">After the turbulent 1960’s counter-culture movement, an explosion
+                of art and performance occured. The 1970's were a time of great cultural and social
+                change.  Comedians like Lenny Bruce had begun stirring up
                 trouble with their political commentary and edgy standup
-                style and the newer generation would expand upon
+                style and the newer generation would expand upon.  Comedians reflected the
+                attitudes and cultural turmoil that many people felt as well as expressed the desire for
+                social equity.
             </h3>
 
             <h3 class="grey-text">The traditional slapstick style was being replaced by a younger,
                 cooler generation who were more interested in fast and loose acts.
                 These comics mixed confessional monologues with raunchy sociopolitical
-                themes. This material spoke to a new generation.
+                themes. This material spoke to a new generation.  In this way, comedians began breaking
+                down cultural and societal walls and forced minorities and opressed groups to coalese.
             </h3>
             <div id="test-tab"></div>
         </div>
@@ -63,103 +69,77 @@
 <div id="main-content" class="row">
 <div class="gdcenter">
     <div class="col12">
-        <h1>Rise Of The Club Scene.</h1>
+        <h1 class="first-h1">Rise Of The Club Scene.</h1>
+
+        <div class="col9">
+            <h3><span class="color-c">A turning point for stand-up comedy, the 1970’s birthed
+                the idea of the comedy club:</span> a collective place where
+                audiences could come and see stand-ups, as well as a place
+                for comedians to form communities and talk about comedy.
+            </h3>
+        </div>
+
+        <div class="col6">
+            <p>Across the country comedy clubs sprung up, offering audiences multiple
+            shows every night.  Not only did the proliferation of comedy clubs expose audiences to new comedians,
+            but they also provided new communities for the comics themselves. Stand-up comedians could make 
+            connections with each other; they could see other acts every night and "workshop" their own material.
+            </p>
+            <p>
+            It was for these reasons - and the fact that the new clubs might feature as many as 10 comics
+            in a night - that many comedians weren't being paid by the clubs in the '70s. Clubs were a training ground 
+            and could provide exposure, but weren't financially lucrative for comics.
+            </p>
+        </div>
+
+        <div class="col5 last">
+            <img id="improv" class="col5"src="img/improv.jpg">
+            <p class="f-caption" style="clear: both">
+                In New York, clubs like the Improv
+                and Catch A Rising Star provided
+                nightly shows featuring new and
+                established comedians. Larry David,
+                Billy Crystal.
+                On the West Coast, the Comedy Store
+                hosted comics like George Carlin,
+                Richard Pryor, David Letterman and
+                Robin Williams.
+            </p>
+        </div>
+
     </div>
-    <!--- NU -->                
-    <div class="col9">
-        <h3><span class="color-c">A turning point for stand-up comedy, the 1970’s birthed
-            the idea of the comedy club:</span> a collective place where
-            audiences could come and see stand-ups, as well as a place
-            for comedians to form communities and talk about comedy.
-        </h3>
+    <div class="col12">
+        <h3>Perhaps two of the most iconic club comedians, George Carlin and Robin Williams were at the forefront of
+            LA Club Scenes, particularly at the Comedy Store</h3>
     </div>
     <div class="col5">
-        <p>Across the country comedy clubs sprung up, offering audiences multiple
-        shows every night.  Not only did the proliferation of comedy clubs expose audiences to new comedians,
-        but they also provided new communities for the comics themselves. Stand-up comedians could make 
-        connections with each other; they could see other acts every night and "workshop" their own material.
-        It was for these reasons - and the fact that the new clubs might feature as many as 10 comics
-        in a night
-        - that many comedians weren't being paid by the clubs in the '70s. Clubs were a training ground 
-        and could provide exposure, but weren't financially lucrative for comics.
-        </p>
-    </div>
-    <div class="col6 last">
-        <img id="improv" class="col5"src="img/improv.jpg">
-        <img id="comedy-store" class="col5" src="img/comedy-store.png">
-        <p class="f-caption" style="clear: both">
-            In New York, clubs like the Improv
-            and Catch A Rising Star provided
-            nightly shows featuring new and
-            established comedians. Larry David,
-            Billy Crystal.
-            On the West Coast, the Comedy Store
-            hosted comics like George Carlin,
-            Richard Pryor, David Letterman and
-            Robin Williams.
-        </p>
-    </div>
-    <div class="col12">
-        <div class="col5">
-            <img src="img/steve martin.jpg">
-        </div>
-        <div class="col5 bcaption">
-
-            <p> A Young Steve Martin posing for a shot.
-                Martin was known for his oddball, unsettling humor.
-                Martin deconstructed the traditional role of the jokester and
-                revolutionized the antijoke.
-            </p>
-
-            <a class="comic-tab" id="steve-martin" data-featherlight="#steve-martin-box">
-                <img src="img/microphone.png">
-                <div>
-                    <h3>learn more about</h3>
-                    <h3>Steve Martin</h3>
-                </div>
-            </a>
-
-        </div>
-    </div>
-
-    <div class="col12">
-        <h1>Comedy Strike</h1>
-    </div>
-    <div class="col7">
-
-        <h3>But in 1979, many of the comics who regularly worked at The Comedy Store - tired of 
-        working for free while the club made money off them - went on strike. Nearly 150 comedians
-        - including both Leno and Letterman - picketed the club for six weeks, demanding to be paid
-        for performing.
-        </h3>
-
-        <p>The club was able to stay open during the strike because several comics crossed the picket line.
-        At the end of six weeks, an agreement was reached were comics would be paid $25 per set for most
-        shows. This "unionization" of comedians played another huge role in legitimizing stand-up comedy
-        in the '70s.
-        </p>
-        
-        <p>One particular reporter named Bill Knoedelseder was an LA time reporter
-        during the comedy strikes.  In 2009, he released a book called "I'm Dying
-        Up Here" which detailed his experience in the comedy strike.  Watch the video below to see some 
-        highlights from an interview about that book
-        </p>
-
-    </div>
-        <div class="col12">
-           <iframe width="100%" height="480" style="margin-bottom: 1em" 
-           src="//www.youtube.com/embed/06jGiiGbMpA?controls=0&amp;showinfo=0&amp;start=10" 
-           frameborder="0" allowfullscreen>
-           </iframe>
-        </div>
-        <div class="col12">
-            <h1>The Tonight Show With <span>Johnny Carson</span></h1>
-        </div>
-        <div class="col12">
-            <div class="col5">
-                <img src="img/JohnnyCarson.jpg">
+        <img src="img/george-carlin.jpg">
+        <a class="comic-tab" id="george-carlin" data-featherlight="#george-carlin-box">
+            <img src="img/microphone.png">
+            <div>
+                <p>learn more about</p>
+                <p>George Carlin</p>
             </div>
-            <div class="col6 bcaption">
+        </a>
+    </div>
+    <div class="col5">
+        <img src="img/robin-williams.jpg">
+        <a class="comic-tab" id="robin-williams" data-featherlight="#robin-williams-box">
+            <img src="img/microphone.png">
+            <div>
+                <p>learn more about</p>
+                <p>Robin Williams</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="col12">
+        <h1>The Tonight Show with <span>Johnny Carson</span></h1>
+        <div class="col6">
+            <img src="img/JohnnyCarson.jpg">
+        </div>
+        <div class="col6 last">
+            <div class="bcaption">
                 <h3>In addition to clubs, stand-ups
                     took to TV to strut their stuff.
                     Comedians were showcased on
@@ -167,25 +147,60 @@
                     Saturday Night Live, which began
                     in 1975, gave comics a 90-minute
                     national showcase.
-                </br></br>
-                <span class="red-text">The biggest opportunity was
+                    </br></br>
+                    <span class="red-text">The biggest opportunity was
                     to appear on The Tonight
                     Show with Johnny Carson.
-                </span>
-            </h3>
+                    </span>
+                </h3>
+            </div>
+        </div>
+        <div class="col10">
+            <p>The Tonight Show was an experiment in late night television that established the format for
+            late night TV to come - Carson would open the show with some one-liners, move on to sketch 
+            comedy and then guest interviews. A huge fan of stand-up, Carson would dedicate a spot to a 
+            comic just about every night, sometimes even offering some couch time to talk to the undisputed 
+            late night king. The show was so popular and well received that a good spot had a huge publicity 
+            value for an aspiring, and even established comic.
+            </p>
         </div>
     </div>
-    <div class="col10">
-        <p>The Tonight Show was an experiment in late night television that established the format for
-        late night TV to come - Carson would open the show with some one-liners, move on to sketch 
-        comedy and then guest interviews. A huge fan of stand-up, Carson would dedicate a spot to a 
-        comic just about every night, sometimes even offering some couch time to talk to the undisputed 
-        late night king. The show was so popular and well received that a good spot had a huge publicity 
-        value for an aspiring, and even established comic.
-        </p>
+
+    <div class="col12">
+        <h1>The Comedy Strike</h1>
+        <div class="col9">
+            <h3>But in 1979, many of the comics who regularly worked at The Comedy Store - tired of 
+            working for free while the club made money off them - went on strike. Nearly 150 comedians
+            - including both Leno and Letterman - picketed the club for six weeks, demanding to be paid
+            for performing.
+            </h3>
+        </div>
+
+        <div class="col7">
+
+            <p>The club was able to stay open during the strike because several comics crossed the picket line.
+               At the end of six weeks,The owner of the Comedy Store, Mitsy Shore an agreement was reached were
+                comics would be paid $25 per set for most shows. This "unionization" of comedians played another
+                 huge role in legitimizing stand-up comedy
+            in the '70s.
+            </p>
+            
+            <p>One particular reporter named Bill Knoedelseder was an LA time reporter
+            during the comedy strikes.  In 2009, he released a book called "I'm Dying
+            Up Here" which detailed his experience in the comedy strike.  Watch the video below to see some 
+            highlights from an interview about that book
+            </p>
+
+        </div>
+        <div class="col5">
+           <iframe width="100%" height="auto" style="margin-bottom: 1em" 
+           src="//www.youtube.com/embed/06jGiiGbMpA?controls=0&amp;showinfo=0&amp;start=10" 
+           frameborder="0" allowfullscreen>
+           </iframe>
+        </div>
     </div>
-</div>
-</div>  <!--  -->
+</div>  <!-- END GDCENTER -->
+</div>  <!-- END ROW -->
 
 <div class="footer">
     <a href="80s.php">

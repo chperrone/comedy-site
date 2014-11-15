@@ -20,17 +20,17 @@
 
 <script type="text/javascript">
     //Set header and current year
-    $('.header h1').text('The 2010s');
-    $('#nav li').eq(4).attr('id', 'current');
+    $('.nav li').eq(4).attr('id', 'current');
 </script>
 
 <!-- Set Color Scheme-->
 <style type="text/css">
 .color-b { background-color: rgb(197, 105, 40); }
 .color-c { color: rgb(197, 105, 40); }
-#nav li div { border: 5px solid rgb(197, 105, 40); }
-#current div { color: rgb(197, 105, 40); }
-#current a span { color: rgb(197, 105, 40); }
+ul.nav li { transition: .75s ease-out; }
+ul.nav li a { border: 5px solid rgb(197, 105, 40); }
+li#current a { color: rgb(197, 105, 40); }
+li#current span { color: rgb(197, 105, 40); }
 </style>
 
 <!-- ====================================

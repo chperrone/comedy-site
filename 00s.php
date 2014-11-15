@@ -20,17 +20,17 @@
 
     <script type="text/javascript">
         //Set header and current year
-        $('.header h1').text('The 2000s');
-        $('#nav li').eq(3).attr('id', 'current');
+        $('.nav li').eq(3).attr('id', 'current');
     </script>
 
     <!-- Set Color Scheme-->
     <style type="text/css">
     .color-b { background-color: rgb(142, 78, 112); }
     .color-c { color: rgb(142, 78, 112); }
-    #nav li div { border: 5px solid rgb(142, 78, 112); }
-    #current div { color: rgb(142, 78, 112); }
-    #current a span { color: rgb(142, 78, 112); }
+    ul.nav li { transition: .75s ease-out; }
+    ul.nav li a { border: 5px solid rgb(142, 78, 112); }
+    li#current a { color: rgb(142, 78, 112); }
+    li#current span { color: rgb(142, 78, 112); }
     </style>
 
     <!-- ====================================
@@ -117,6 +117,15 @@
     </div>  <!-- Close Row -->
 
     <div class="footer">
+        <div class="caption">Dave chappelle performing at the Improv
+            <a class="comic-tab" href="#" data-featherlight="#dane-cook">
+                    <img src="img/microphone.png">
+                    <div>
+                        <h3>learn more about</h3>
+                        <h3>Dane Cook</h3>
+                    </div>
+                </a>
+        </div>
         <a href="10s.php">
             <img class="full-bleed" src="img/dave-chappelle.jpg">
             <div>
@@ -126,22 +135,6 @@
     </div>
 
     <!-- LIGHTBOXES -->
-    <div class="lightbox" id="dane-cook">
-        <h1>Dane Cook</h1>
-        <p class="stats">
-            Born: August 14, 1945</br>
-            Years Active: 1970s - present</br>
-            Styles: Stand-up, film
-        </p>
-        <p class="bio">
-            Martin came to public notice as a writer for the Smothers Brothers Comedy Hour, and later 
-            became a frequent guest on The Tonight Show. In the 1970s, Martin performed his offbeat, 
-            absurdist comedy routines before packed houses on national tours. Since the 1980s, having
-            branched away from stand-up comedy, Martin has become a successful actor, as well as an author,
-            playwright, pianist and banjo player, eventually earning him an Emmy, Grammy and American Comedy
-            awards, among other honors.
-        </p>
-    </div>
 
     <?php include( 'php/include-foot.php' ); ?>
 

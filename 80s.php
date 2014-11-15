@@ -19,18 +19,19 @@
         <?php include( 'php/include-nav.php' ); ?>
 
         <script type="text/javascript">
+
         //Set header and current year
-        $('.header h1').text('The 1980s');
-        $('#nav li').eq(1).attr('id', 'current');
+        $('.nav li').eq(1).attr('id', 'current');
         </script>
 
         <!-- Set Color Scheme-->
         <style type="text/css">
         .color-b { background-color: rgb(22, 105, 135); }
         .color-c { color: rgb(22, 105, 135); }
-        #nav li div { border: 5px solid rgb(22, 105, 135); }
-        #current div { color: rgb(22, 105, 135); }
-        #current a span { color: rgb(22, 105, 135); }
+        ul.nav li { transition: .75s ease-out; }
+        ul.nav li a { border: 5px solid rgb(22, 105, 135); }
+        li#current a { color: rgb(22, 105, 135); }
+        li#current span { color: rgb(22, 105, 135); }
         </style>
 
     <div class="row yellow">
@@ -50,9 +51,29 @@
 
     <div class="row">
         <div class="gdcenter">
+            <h1 class="first-h1">The Expanding Club Scene</h1>    
+            <div class="col8">                 
+                    <p>
+                        With stand-up having become a popular and legitimate art form in the 1970s, the
+                        1980s became the decade when it exploded. The handful of comedy clubs that
+                        opened in the '70s had flourished on both coasts. In the '80s, clubs went
+                        national; between 1978 and 1988, over 300 comedy clubs sprung up across the U.S.
+                        Stand-up comedy was everywhere.Sitcoms                     The '80s also became
+                        the decade that stand-up exploded on television. Sitcoms featuring comedians,
+                        such as The Cosby Show and Roseanne, became massive hits. And though comics had
+                        always been given the opportunity to perform on late-night talk shows (like
+                        Johnny Carson'sTonight Show) and variety shows, new programs appeared on TV in
+                        the '80s devoted solely to stand-up comedy. The A&E cable network debuted An
+                        Evening at the Improv. HBO, which came to popularity in the '80s, aired regular
+                        comedy specials like the HBO Comedy Hour and the Young Comedians Showcase. Even
+                        MTV started showcasing stand-up comics with its show Half-hour Comedy Hour,
+                        hosted by comedian Mario Joyner.
+
+                        The unbelievable success of stand-up comedy in the 1980s meant only one thing: sooner or later, the bubble had to burst. Though comedy went out on top at the end of the decade, it was only a matter of time before overexposure led to a collapse -- and that's exactly what happened in the early 1990s.
+                    </p>
+                </div>
             <div class="col12">
-                <h1>New Mediums</h1>
-                <h3>Television and Sitcoms.</h3>
+                <h1>Television and Sitcoms. HBO!</h1>
             </div>
             <div class="col12">
                 <div class="col6">                         
@@ -87,27 +108,6 @@
                         </div>                     
                     </div>
                 </div>                 
-                <div class="col8">
-                <h3>The Club Scene Expands</h3>                     
-                    <p>
-                        With stand-up having become a popular and legitimate art form in the 1970s, the
-                        1980s became the decade when it exploded. The handful of comedy clubs that
-                        opened in the '70s had flourished on both coasts. In the '80s, clubs went
-                        national; between 1978 and 1988, over 300 comedy clubs sprung up across the U.S.
-                        Stand-up comedy was everywhere.Sitcoms                     The '80s also became
-                        the decade that stand-up exploded on television. Sitcoms featuring comedians,
-                        such as The Cosby Show and Roseanne, became massive hits. And though comics had
-                        always been given the opportunity to perform on late-night talk shows (like
-                        Johnny Carson'sTonight Show) and variety shows, new programs appeared on TV in
-                        the '80s devoted solely to stand-up comedy. The A&E cable network debuted An
-                        Evening at the Improv. HBO, which came to popularity in the '80s, aired regular
-                        comedy specials like the HBO Comedy Hour and the Young Comedians Showcase. Even
-                        MTV started showcasing stand-up comics with its show Half-hour Comedy Hour,
-                        hosted by comedian Mario Joyner.
-
-                        The unbelievable success of stand-up comedy in the 1980s meant only one thing: sooner or later, the bubble had to burst. Though comedy went out on top at the end of the decade, it was only a matter of time before overexposure led to a collapse -- and that's exactly what happened in the early 1990s.
-                    </p>
-                </div>
                 <div class="col12">
                     <h1>Comic Relief</h1>
                 </div>
@@ -135,18 +135,10 @@
             </a>
     </div>
 
-    <!-- Lightboxes -->
-        <div class="lightbox" id="bill-cosby">
-            <h1>Bill Cosby</h1>
-            <p class="stats">
-                Born: August 14, 1945</br>
-                Years Active: 1970s - present</br>
-                Styles: Stand-up, film
-            </p>
-            <p class="bio">
-                Martin came to public notice as a writer for the Smothers Brothers Comedy Hour, and later became a frequent guest on The Tonight Show. In the 1970s, Martin performed his offbeat, absurdist comedy routines before packed houses on national tours. Since the 1980s, having branched away from stand-up comedy, Martin has become a successful actor, as well as an author, playwright, pianist and banjo player, eventually earning him an Emmy, Grammy and American Comedy awards, among other honors.
-            </p>
-        </div>
+    <!-- ==============================
+            LIGHTBOXES
+        =============================== -->
+    <div class="all-lightboxes"></div>
 
     <?php include( 'php/include-foot.php' ); ?>
 </body>

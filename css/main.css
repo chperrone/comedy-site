@@ -82,28 +82,6 @@ textarea {
     resize: vertical;
 }
 
-h1 {
-    font-size: 5.0em;
-    margin: 0;
-}
-
-h2 {
-    font-size: 4.0em;
-    margin: 0;
-}
-
-h3 {
-    font-size: 2.0em;
-    margin: 0;
-    font-weight: normal;
-}
-
-p {
-    font-size: 1.2em;
-    margin: 0;
-    font-family: 'Lato';
-}
-
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
@@ -125,11 +103,6 @@ p {
     font-family: 'Josefin Sans';
 }
 
-.header {
-position: relative;
-padding-bottom: 5px;
-}
-
 /*
 body.page-80 .header,
 body.page-80 .footer { 
@@ -139,11 +112,9 @@ body.page-80 .header {
     color: rgb(22, 105, 135);
 }*/
 
-
-div#bar {
-background-color: rgb(217, 186, 64);
-height: 9px;
-}
+/*  ===========================
+            THE GRID
+    =========================== */
 
 .gdcenter {
 width: 940px;
@@ -230,9 +201,9 @@ margin: 0 auto;
     float: right;
 }
 
-.example {
-    background-color: #ccc;
-}
+/*  ===========================
+            NAVIGATION
+    =========================== */
 
 .border {
     height: .75em;
@@ -270,92 +241,107 @@ padding: 10px;
         NAV STYLES 
     =============================================================== */
 
-#nav {
+.header {
+position: fixed;
+width: 100%;
+padding-bottom: 5px;
+border-bottom: 9px solid rgb(217, 186, 64);
+}
+
+div#bar {
+background-color: rgb(169, 28, 69);
+height: 5px;
+}
+
+ul.nav {
 list-style: none;
+display: inline-block;
+padding: 0;
 position: absolute;
-top: 11px;
-right: 0;
-
+display: block;
+right: 16%;
+left: 35%;
+top:-1px;
 }
 
-#nav li {
-width: 3em;
-height: 11em;
-float: left;
-margin-right: 2em;
-position: relative;
+ul.nav li {
+    position: relative;
+    height: 100px;
+    width: 60px;
+    float:left;
+    margin-right: 20px;
+    text-align: center;
 }
 
-#nav li div {
-width: 2em;
-height: 2em;
-border-radius: 50%;
-background-color: rgb(217, 186, 64);
-border: 5px solid;
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-margin: auto;
-}
-
-#nav li div:hover {
-width: 2.1em;
-height: 2.1em;
-}
-
-#nav li a {
-color: rgb(187, 187, 187);
-text-decoration: none;
+ul.nav li span {
+color: #bbb;
 font-style: italic;
 }
 
-#nav li a span {
+ul.nav li a {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(217, 186, 64);
+    border-radius: 50%;
+    border: 5px solid rgb(169, 28, 69);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+ul.nav li:hover {
+transform: scale(1.1);
+}
+
+li#current {
+    /* Current container dimensions */
+    height: 100px;
+    width: 100px;
+}
+
+li#current a {
+    /* Current circle dimensions    */
+    height: 90px;
+    width: 90px;
+}
+
+li#current span {
 position: relative;
-bottom: 58px;
-left: -3px;
-font-size: 23px;
-font-weight: lighter;
+font-size: 38px;
+bottom: 50%;
+top: 27px;
+color: rgb(169, 28, 69);
+font-weight: 700;
 }
 
-#nav #current {
-width: 11em;
-height: 11em;
+ul.nav li { transition: color .75s ease-out; }
+
+i {
+padding-top: 11px;
+padding-left: 11px;
+color: #bbb;
+transition: color .5s ease-out;
 }
 
-#nav #current div {
-width: 10em;
-height: 10em;
-border-radius: 50%;
-background-color: rgb(217, 186, 64);
+i:hover {
+    color: white;
 }
 
-#nav #current a span {
-position: relative;
-font-size: 58px;
-font-weight: 600;
-left: 28px;
-top: 39px;
-}
-
-#nav #current div:hover {
-width: 10.1em;
-height: 10.1em;
-}
-
-/* Comic Tab ---------------------------------------------------------------- */
+/*  =================================
+            COMIC TABS
+    ================================= */
 
 .comic-tab {
 background-color: #ccc;
-position: relative;
 display: inline-block;
 }
 
 .comic-tab img {
 height: 80px;
 width: auto;
-position: relative;
 background-color: #bbb;
 float: left;
 }
@@ -389,7 +375,15 @@ padding: 9px;
     height: auto;
 }
 
-.footer div {
+.footer .caption {
+    position: absolute;
+top: 0;
+color: white;
+background-color: rgba(153, 153, 153, 0.55);
+right: 0;
+}
+
+.footer a div {
 position: absolute;
 bottom: 0;
 width: 100%;
@@ -409,47 +403,18 @@ margin-top: 1em;
 margin-bottom: 2em;
 }
 
-/** TYPOGRAPHY ----------------------------------------------------------------**/
+/*  =================================
+            COMIC GRID
+    ================================ */
 
-h1 {
-
+.comic-grid {
+    margin-top: 3em;
 }
 
-h2 {
 
-}
-
-.row h1 {
-border-top: 1px solid rgb(217, 186, 64);
-}
-
-.footer h1 {
-padding-top: 19px;
-padding-left: 5px;
-text-align: center;
-}
-
-h1 span {
-font-style: italic;
-color: grey;
-}
-
-p.f-caption {
-font-size: 14px;
-font-style: italic;
-margin-top: 1em;
-border-top: 1px solid rgb(216, 216, 216);
-padding-top: 1em;
-}
-
-p.s-caption {
-font-size: 14px;
-font-style: italic;
-padding-left: 1em;
-border-left: 1px solid rgb(216, 216, 216);
-}
-
-/** Images **/
+/*  =================================
+            IMAGES
+    ================================ */
 img {
     width: 100%;
 }
@@ -468,6 +433,110 @@ width: auto;
 height: 89px;
 width: auto;
 }
+
+#carlin-img {
+    background-image: url(../img/george-carlin.jpg);
+    width: 100%;
+    height: auto;
+}
+
+
+/*  =====================================================
+                        TYPOGRAPHY
+    ===================================================== */
+
+/*  =========================
+            HEADER 1
+    ========================= */
+
+h1 {
+    font-size: 5.0em;
+    margin: 0;
+    line-height: 84px;
+    padding-top: 17px;
+}
+
+.row h1 {
+padding-top: 20px;
+border-top: 1px solid rgb(217, 186, 64);
+}
+
+.footer h1 {
+padding-top: 19px;
+padding-left: 5px;
+text-align: center;
+}
+
+h1 span {
+font-style: italic;
+color: grey;
+}
+
+h1.first-h1 {
+    border-top: 1px solid white;
+}
+
+/*  =========================
+            HEADER 2
+    ========================= */
+
+h2 {
+    font-size: 4.0em;
+    margin: 0;
+}
+
+/*  =========================
+            HEADER 3
+    ========================= */
+
+h3 {
+    font-size: 2.0em;
+    margin: 0;
+    margin-bottom: 1em;
+    font-weight: normal;
+}
+/*  =========================
+            PARAGRAPH
+    ========================= */
+p {
+    font-size: 1.2em;
+    margin: 0;
+    font-family: 'Lato';
+}
+
+p.f-caption {
+font-size: 13px;
+font-style: italic;
+margin-top: 1em;
+border-top: 1px solid rgb(216, 216, 216);
+padding-top: 1em;
+}
+
+p.s-caption {
+font-size: 14px;
+font-style: italic;
+padding-left: 1em;
+border-left: 1px solid rgb(216, 216, 216);
+}
+
+/* ==============================
+            COMIC GRID
+   ============================== */
+.comic-grid div {
+    position: relative;
+    height: 220px;
+}
+
+.comic-grid div div {
+    position: absolute;
+    background-color: #ccc;
+    width: 210px;
+    height: 210px;
+    top: 0;
+    bottom: 0;
+}
+
+
 
 /* ==========================================================================
    Helper classes
