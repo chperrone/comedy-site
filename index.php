@@ -29,20 +29,16 @@
                 list-style: none;
             }
 
-            .test {
-                padding: 0;
-                display: inline-block;
+            .intro-list > li {
+            display: inline-block;
+            float: left;
+            clear: both;
+            }
+
+            .intro-list p {
 
             }
 
-            .test li {
-                height: 3em;
-                width: 3em;
-                border-radius: 50%;
-                background-color: #ccc;
-                display: block;
-                float: left;
-            }
 
            #enter {
                 background-color: rgb(169, 28, 69);
@@ -64,8 +60,6 @@
 
                 <ul class="intro-list">
                     <li>
-                        <div class="col12">
-                        <div class="col4">
                             <ul class="nav" style="position: relative; left: 0;">
                                 <li id="current"><a href="70s.php"></a><span>70s</span></li>
                                 <li id="current"><a href="80s.php"></a><span>80s</span></li>
@@ -73,22 +67,22 @@
                                 <li id="current"><a href="00s.php"></a><span>00s</span></li>
                                 <li id="current"><a href="10s.php"></a><span>10s</span></li>
                             </ul>
-                        </div>
+                    </li>
+                    <li>
                         <div class="col7">
-                            <h3>Go decade by decade and learn about the history and development of modern american
+                            <p>Go decade by decade and learn about the history and development of modern american
                             stand-up comedy.
-                            </h3>
-                        </div>
+                            </p>
                         </div>
                     </li>
                     <li>
-                        <div class="col4">
                             <i style="color:#ccc"class="fa fa-th-large fa-5x"></i>
-                        </div>
-                        <div class="col7">
-                            <h3>Click the grid icon to learn more about some of your favorite comics like Steve Martin
+                    </li>
+                    <li>
+                        <div>
+                            <p>Click the grid icon to learn more about some of your favorite comics like Steve Martin
                             Sarah Silverman and Louis CK, and view their most memorable bits
-                            </h3>
+                            </p>
                         </div>
                     </li>
                 </ul>

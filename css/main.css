@@ -19,7 +19,7 @@ textarea {
 }
 
 html {
-    font-size: 1em;
+    font-size: .75em;
     line-height: 1.4;
 }
 
@@ -119,6 +119,10 @@ body.page-80 .header {
 .gdcenter {
 width: 940px;
 margin: 0 auto;
+}
+
+.gdcenter > div.col12 {
+border-top: 1px solid rgb(217, 186, 64);
 }
 
 #main-content{
@@ -234,7 +238,7 @@ padding-bottom: 7em;
 
 .bcaption {
 border: 4px solid #ccc;
-padding: 10px;
+padding: 30px;
 }
 
 /*  ===============================================================
@@ -246,6 +250,31 @@ position: fixed;
 width: 100%;
 padding-bottom: 5px;
 border-bottom: 9px solid rgb(217, 186, 64);
+height: 4em;
+}
+
+.header div.links {
+    margin-left: 1em;
+}
+
+.header div.links span {
+    color: #bbb;
+    font-size: 3em;
+}
+
+.header div.links > a {
+color: #bbb;
+text-decoration: none;
+font-size: 2.5em;
+transition: color .5s ease;
+}
+
+.header div.links > a > span {
+font-size: .7em;
+}
+
+.header div.links > a:hover {
+color: white;
 }
 
 div#bar {
@@ -271,11 +300,13 @@ ul.nav li {
     float:left;
     margin-right: 20px;
     text-align: center;
+    transition: .4s ease;
 }
 
 ul.nav li span {
 color: #bbb;
 font-style: italic;
+font-size: 17px;
 }
 
 ul.nav li a {
@@ -283,7 +314,6 @@ ul.nav li a {
     width: 50px;
     background-color: rgb(217, 186, 64);
     border-radius: 50%;
-    border: 5px solid rgb(169, 28, 69);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -317,8 +347,6 @@ color: rgb(169, 28, 69);
 font-weight: 700;
 }
 
-ul.nav li { transition: color .75s ease-out; }
-
 i {
 padding-top: 11px;
 padding-left: 11px;
@@ -334,21 +362,44 @@ i:hover {
             COMIC TABS
     ================================= */
 
+.comic-tab-wrap {
+text-align: center;
+}
+
 .comic-tab {
-background-color: #ccc;
 display: inline-block;
+border: 3px solid grey;
+border-radius: 70px;
+transition: all 1s ease;
+}
+
+.comic-tab:hover {
+transform: scale(1.05);
+color: white;
 }
 
 .comic-tab img {
-height: 80px;
+height: 46px;
 width: auto;
-background-color: #bbb;
-float: left;
 }
 
 .comic-tab div {
-float: right;
-padding: 9px;
+float:left;
+}
+
+.comic-tab div.mic-wrap {
+border: 3px solid #AAA;
+background-color: #ccc;
+border-radius: 50%;
+padding: 10px;
+}
+
+.comic-tab div.tab-text {
+margin-top: 10px;
+padding-right: 24px;
+padding-left: 12px;
+color: #ccc;
+text-align: left;
 }
 
 .comic-tab h2 {
@@ -392,24 +443,22 @@ border-top: 5px solid rgb(217, 186, 64);
 }
 
 .quote {
-background-color: rgb(31, 31, 31);
+background-color: rgb(66, 66, 66);
 color: white;
-font-size: 31px;
+font-size: 2em;
 line-height: normal;
-font-family: "Dosis", sans-serif;
+font-family: 'Arvo';
+font-weight: bold;
+font-style: italic;
 padding: 15px;
-border-left: 14px solid grey;
-margin-top: 1em;
-margin-bottom: 2em;
+border-left: 4px solid grey;
+box-shadow: 4px 4px 3px 0px #ccc;
 }
 
 /*  =================================
             COMIC GRID
     ================================ */
 
-.comic-grid {
-    margin-top: 3em;
-}
 
 
 /*  =================================
@@ -420,7 +469,7 @@ img {
 }
 
 #improv {
-height: 105px;
+height: 73px;
 width: auto;
 }
 
@@ -440,6 +489,13 @@ width: auto;
     height: auto;
 }
 
+#just-laughs {
+width: 50%;
+display: block;
+margin: auto;
+margin-top: 4em;
+}
+
 
 /*  =====================================================
                         TYPOGRAPHY
@@ -451,29 +507,22 @@ width: auto;
 
 h1 {
     font-size: 5.0em;
-    margin: 0;
     line-height: 84px;
-    padding-top: 17px;
-}
-
-.row h1 {
-padding-top: 20px;
-border-top: 1px solid rgb(217, 186, 64);
+    color: rgb(82, 82, 82);
+    margin: 0;
 }
 
 .footer h1 {
-padding-top: 19px;
-padding-left: 5px;
 text-align: center;
+margin: 0;
 }
 
 h1 span {
 font-style: italic;
-color: grey;
 }
 
-h1.first-h1 {
-    border-top: 1px solid white;
+.col12 h1 {
+margin: .3em 0em;
 }
 
 /*  =========================
@@ -482,7 +531,8 @@ h1.first-h1 {
 
 h2 {
     font-size: 4.0em;
-    margin: 0;
+    margin-bottom: 1;
+    color: rgb(55, 55, 55);
 }
 
 /*  =========================
@@ -494,26 +544,48 @@ h3 {
     margin: 0;
     margin-bottom: 1em;
     font-weight: normal;
+    line-height: 1.2em;
 }
+
+h3.video-title {
+margin: 0;
+background-color: rgb(217, 186, 64);
+display: inline-block;
+padding: 4px 15px;
+padding-top: 7px;
+}
+
+h3.open-box {
+border-top: 3px solid #E7E7E7;
+border-bottom: 3px solid #E7E7E7;
+padding: 0.6em 0;
+padding-left: 0.3em;
+}
+
 /*  =========================
             PARAGRAPH
     ========================= */
 p {
-    font-size: 1.2em;
-    margin: 0;
-    font-family: 'Lato';
+font-size: 1.5em;
+margin: 0;
+margin-bottom: 1em;
+font-family: 'Roboto';
+-webkit-font-smoothing: antialiased;
+letter-spacing: 0;
 }
 
 p.f-caption {
-font-size: 13px;
+font-size: 1.2em;
 font-style: italic;
 margin-top: 1em;
 border-top: 1px solid rgb(216, 216, 216);
 padding-top: 1em;
+letter-spacing: 0;
+line-height: 1em;
+text-align: left;
 }
 
 p.s-caption {
-font-size: 14px;
 font-style: italic;
 padding-left: 1em;
 border-left: 1px solid rgb(216, 216, 216);
@@ -529,11 +601,20 @@ border-left: 1px solid rgb(216, 216, 216);
 
 .comic-grid div div {
     position: absolute;
-    background-color: #ccc;
-    width: 210px;
-    height: 210px;
-    top: 0;
-    bottom: 0;
+background-color: #ccc;
+width: 210px;
+height: 210px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+transition: all .2s ease;
+}
+
+.comic-grid div div:hover {
+height: 220px;
+width: 220px;
 }
 
 
