@@ -1,6 +1,6 @@
 $(document).ready( function(){
 
-    $( ".comic-tab" ).each( function() {
+    $( "a.comic-tab" ).each( function() {
     var my_id = ($(this).attr( 'id' ));
 
     var request = $.ajax({

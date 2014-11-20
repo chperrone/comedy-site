@@ -21,24 +21,74 @@
             #nav li div { border: 5px solid rgb(169, 28, 69); }
             #current div { color: rgb(169, 28, 69); }
             #current a span { color: rgb(169, 28, 69); }
+
+            .intro-list {
+                display: inline-block;
+                padding: 0;
+                margin: 0;
+                list-style: none;
+            }
+
+            .intro-list > li {
+            display: inline-block;
+            float: left;
+            clear: both;
+            }
+
+            .intro-list p {
+
+            }
+
+
+           #enter {
+                background-color: rgb(169, 28, 69);
+                display: block;
+                font-size: 44px;
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                width: 400px;
+            }
             </style>
         <div class="header color-b">
-            <h1 style="font-style: italic" class="grey">Modern American Stand-Up Comedy</h1>
+            <h1 style="font-style: italic; text-align: center" class="grey">Modern American Stand-Up Comedy</h1>
             <div id="bar"></div>
         </div>
 
         <div class="row yellow">
             <div class="gdcenter">
-                <h3>Dive in to learn about the history and development of modern american
-                stand-up comedy</h3>
-                <h3>Learn more about some of your favorite comics like Steve Martin
-                    Sarah Silverman and Louis CK, and view their most memorable bits</h3>
-                <a href="70s.php">Start the tour!</a>
 
-                <h1>Header 1</h1>
-                <h2>Header 2</h2>
-                <h3>Header 3</h3>
-                <p>Paragraph</p>
+                <ul class="intro-list">
+                    <li>
+                            <ul class="nav" style="position: relative; left: 0;">
+                                <li id="current"><a href="70s.php"></a><span>70s</span></li>
+                                <li id="current"><a href="80s.php"></a><span>80s</span></li>
+                                <li id="current"><a href="90s.php"></a><span>90s</span></li>
+                                <li id="current"><a href="00s.php"></a><span>00s</span></li>
+                                <li id="current"><a href="10s.php"></a><span>10s</span></li>
+                            </ul>
+                    </li>
+                    <li>
+                        <div class="col7">
+                            <p>Go decade by decade and learn about the history and development of modern american
+                            stand-up comedy.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                            <i style="color:#ccc"class="fa fa-th-large fa-5x"></i>
+                    </li>
+                    <li>
+                        <div>
+                            <p>Click the grid icon to learn more about some of your favorite comics like Steve Martin
+                            Sarah Silverman and Louis CK, and view their most memorable bits
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+
+                <a id="enter" href="70s.php">Start the tour!</a>
+
             </div>
         </div>
 

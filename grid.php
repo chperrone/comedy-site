@@ -10,102 +10,65 @@
     <?php include( 'php/include-head.php' ); ?>
 
     <style type="text/css">
-    .example {
-    	height: 130px;
-    	background-color: #ccc;
-    }
-
-    .example:hover {
-    	border: 1px solid orange;
-    }
     </style>
 </head>
 <body>
+
+<div class="row header" style="background-color: rgb(217, 186, 64)">
+    <div class="links">
+        <a href="index.php">Home</a>
+        <span>|</span>
+        <a href="grid.php">Browse <span>by Comedians</span></a>
+    </div>
+</div>
+
 <div class="row">
-	<div class="gdcenter">
-		<div class="col2 example" data-featherlight="#woody-allen">Woody Allen</div>
-		<div class="col2 example" data-featherlight="#dana-gould">Dana Gould</div>
-		<div class="col2 example" data-featherlight="#patton-oswalt">Patton Oswalt</div>
-		<div class="col2 example" data-featherlight="#louis-ck">Louis CK</div>
-		<div class="col2 example" data-featherlight="#dane-cook">Dane Cook</div>
-		<div class="col2 example" data-featherlight="#robin-williams">Robin Williams</div>
-		<div class="col2 example" data-featherlight="#richard-pryor">Richard Pryor</div>
-	</div>
+    <div class="gdcenter comic-grid">
+        <div class="col3" data-featherlight="#woody-allen">
+            <div>
+                <img src="img/headshots/joan-rivers.jpg">
+            </div>
+        </div>
+        <div class="col3" data-featherlight="#dana-gould">
+            <div>
+                <img src="img/headshots/dana-gould.jpg">
+            </div>
+        </div>
+        <div class="col3" data-featherlight="#patton-oswalt">
+            <div>
+                <img src="img/headshots/sarah-silverman.jpg">
+            </div>
+        </div>
+        <div class="col3 last" data-featherlight="#louis-ck">
+            <div>
+                <img src="img/headshots/louis-ck.jpg">
+            </div>
+        </div>
+        <div class="col3" data-featherlight="#dane-cook">
+            <div></div>
+        </div>
+        <div class="col3" data-featherlight="#robin-williams">
+            <div>
+                <img src="img/headshots/robin-williams.jpg">
+            </div>
+        </div>
+        <div class="col3" data-featherlight="#richard-pryor">
+            <div>
+                <img src="img/headshots/richard-pryor.jpg">
+            </div>
+        </div>
+        <div class="col3 last" data-featherlight="#robin-williams">
+            <div></div>
+        </div>
+        <div class="col3" data-featherlight="#richard-pryor">
+            <div></div>
+        </div>
+    </div>
 </div>
 
-<!-- [ LIGHTBOXES ]-->
-<div class="lightbox" id="dana-gould">
-    <h1>Dana Gould</h1>
-    <p class="stats">
-    Born: August 14, 1945</br>
-    Years Active: 1970s - present</br>
-    Styles: Stand-up, film
-    </p>
-    <p class="bio">
-    Martin came to public notice as a writer for the Smothers Brothers Comedy Hour, and later 
-    </p>
-</div>
-
-<div class="lightbox" id="woody-allen">
-    <h1>Woody Allen</h1>
-    <p class="stats">
-    Born: August 14, 1945</br>
-    Years Active: 1970s - present</br>
-    Styles: Stand-up, film
-    </p>
-    <p class="bio">
-    Martin came to public notice as a writer for the Smothers Brothers Comedy Hour, and later 
-    </p>
-</div>
-
-<div class="lightbox" id="patton-oswalt">
-    <h1>Patton Oswalt</h1>
-    <p class="stats">
-    Born: August 14, 1945</br>
-    Years Active: 1970s - present</br>
-    Styles: Stand-up, film
-    </p>
-    <p class="bio">
-    Martin came to public notice as a writer for the Smothers Brothers Comedy Hour, and later 
-    </p>
-</div>
-
-<div class="lightbox" id="louis-ck">
-    <h1>Louis CK</h1>
-    <p class="stats">
-    Born: August 14, 1945</br>
-    Years Active: 1970s - present</br>
-    Styles: Stand-up, film
-    </p>
-    <p class="bio">
-    Martin came to public notice as a writer for the Smothers Brothers Comedy Hour, and later 
-    </p>
-</div>
-
-<div class="lightbox" id="richard-pryor">
-    <h1>Richard Pryor</h1>
-    <p class="stats">
-    Born: August 14, 1945</br>
-    Years Active: 1970s - present</br>
-    Styles: Stand-up, film
-    </p>
-    <p class="bio">
-    Martin came to public notice as a writer for the Smothers Brothers Comedy Hour, and later 
-    </p>
-</div>
-
-<div class="lightbox" id="robin-williams">
-    <h1>Robin Williams</h1>
-    <p class="stats">
-    Born: August 14, 1945</br>
-    Years Active: 1970s - present</br>
-    Styles: Stand-up, film
-    </p>
-    <p class="bio">
-    Martin came to public notice as a writer for the Smothers Brothers Comedy Hour, and later 
-    </p>
-</div>
+<div class="all-lightboxes"></div>
 
 <?php include( 'php/include-foot.php' ); ?>
+
 </body>
 </html>
