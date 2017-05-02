@@ -117,12 +117,16 @@ body.page-80 .header {
     =========================== */
 
 .gdcenter {
-width: 940px;
-margin: 0 auto;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .gdcenter > div.col12 {
-border-top: 1px solid rgb(217, 186, 64);
+    border-top: 1px solid rgb(217, 186, 64);
+}
+
+div.first-block {
+    border-top: 1px solid white;
 }
 
 #main-content{
@@ -231,71 +235,74 @@ border-top: 1px solid rgb(217, 186, 64);
 }
 
 .yellow {
-background-color: rgb(217, 186, 64);
-padding-top: 7em;
-padding-bottom: 7em;
+    background-color: rgb(217, 186, 64);
+    padding-top: 7em;
+    padding-bottom: 7em;
 }
 
 .bcaption {
-border: 4px solid #ccc;
-padding: 30px;
+    border: 4px solid #ccc;
+    padding: 30px;
+}
+
+img#nav-mic {
+width: 24px;
+top: -2px;
+border: 2px solid #bbb;
+border-radius: 50%;
+padding: 3px;
+background-color: #ccc;
+position: relative;
 }
 
 /*  ===============================================================
         NAV STYLES 
     =============================================================== */
 
+#enter-button {
+    float: left;
+    clear: both;
+    background-color: rgb(169, 28, 69);
+    font-size: 42px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+    width: 96%;
+    text-align: center;
+}
+
 .header {
-position: fixed;
-width: 100%;
-padding-bottom: 5px;
-border-bottom: 9px solid rgb(217, 186, 64);
-height: 4em;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 9px solid rgb(217, 186, 64);
+    height: 4em;
+    z-index: 6;
 }
 
-.header div.links {
-    margin-left: 1em;
+div#links {
+    color: white;
 }
 
-.header div.links span {
-    color: #bbb;
-    font-size: 3em;
-}
-
-.header div.links > a {
-color: #bbb;
-text-decoration: none;
-font-size: 2.5em;
-transition: color .5s ease;
-}
-
-.header div.links > a > span {
-font-size: .7em;
-}
-
-.header div.links > a:hover {
-color: white;
-}
 
 div#bar {
-background-color: rgb(169, 28, 69);
-height: 5px;
+    background-color: rgb(169, 28, 69);
+    height: 5px;
 }
 
 ul.nav {
-list-style: none;
-display: inline-block;
-padding: 0;
-position: absolute;
-display: block;
-right: 16%;
-left: 35%;
-top:-1px;
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    display: block;
+    top: -53px;
+    left: 275px;
 }
 
 ul.nav li {
     position: relative;
-    height: 100px;
+    height: 86px;
     width: 60px;
     float:left;
     margin-right: 20px;
@@ -303,15 +310,9 @@ ul.nav li {
     transition: .4s ease;
 }
 
-ul.nav li span {
-color: #bbb;
-font-style: italic;
-font-size: 17px;
-}
-
 ul.nav li a {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-color: rgb(217, 186, 64);
     border-radius: 50%;
     position: absolute;
@@ -320,10 +321,11 @@ ul.nav li a {
     left: 0;
     right: 0;
     margin: auto;
+    text-decoration: none;
 }
 
 ul.nav li:hover {
-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 li#current {
@@ -333,29 +335,42 @@ li#current {
 }
 
 li#current a {
-    /* Current circle dimensions    */
-    height: 90px;
-    width: 90px;
+    /* Current circle dimensions */
+    height: 80px;
+    width: 80px;
 }
 
-li#current span {
-position: relative;
-font-size: 38px;
-bottom: 50%;
-top: 27px;
-color: rgb(169, 28, 69);
-font-weight: 700;
+ul.nav li a span {
+    font-style: italic;
+    position: relative;
+    text-decoration: none;
+    font-size: 17px;
+    bottom: 50%;
+    top: 10px;
+    font-weight: 700;
 }
 
-i {
-padding-top: 11px;
-padding-left: 11px;
-color: #bbb;
-transition: color .5s ease-out;
+#current span {
+    font-size: 38px;
+    top: 15px;
 }
 
-i:hover {
+div#links {
     color: white;
+    font-size: 24px;
+    margin-top: 11px;
+    margin-left: 12px;
+}
+
+div#links a {
+    color: white;
+    text-decoration: none;
+    transition: .75s;
+}
+
+div#links a:hover {
+    color: rgb(217, 186, 64);
+    text-decoration: none;
 }
 
 /*  =================================
@@ -363,43 +378,44 @@ i:hover {
     ================================= */
 
 .comic-tab-wrap {
-text-align: center;
+    text-align: center;
 }
 
 .comic-tab {
-display: inline-block;
-border: 3px solid grey;
-border-radius: 70px;
-transition: all 1s ease;
+    display: inline-block;
+    border: 3px solid grey;
+    border-radius: 70px;
+    transition: all 1s ease;
+    cursor: pointer;
 }
 
 .comic-tab:hover {
-transform: scale(1.05);
-color: white;
+    transform: scale(1.05);
+    color: white;
 }
 
 .comic-tab img {
-height: 46px;
-width: auto;
+    height: 46px;
+    width: auto;
 }
 
 .comic-tab div {
-float:left;
+    float:left;
 }
 
 .comic-tab div.mic-wrap {
-border: 3px solid #AAA;
-background-color: #ccc;
-border-radius: 50%;
-padding: 10px;
+    border: 3px solid #AAA;
+    background-color: #ccc;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .comic-tab div.tab-text {
-margin-top: 10px;
-padding-right: 24px;
-padding-left: 12px;
-color: #ccc;
-text-align: left;
+    margin-top: 10px;
+    padding-right: 24px;
+    padding-left: 12px;
+    color: #ccc;
+    text-align: left;
 }
 
 .comic-tab h2 {
@@ -428,31 +444,32 @@ text-align: left;
 
 .footer .caption {
     position: absolute;
-top: 0;
-color: white;
-background-color: rgba(153, 153, 153, 0.55);
-right: 0;
+    top: 0;
+    color: white;
+    background-color: rgba(153, 153, 153, 0.55);
+    right: 0;
 }
 
 .footer a div {
-position: absolute;
-bottom: 0;
-width: 100%;
-background-color: rgba(217, 186, 64, 0.88);
-border-top: 5px solid rgb(217, 186, 64);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(217, 186, 64, 0.88);
+    border-top: 5px solid rgb(217, 186, 64);
 }
 
 .quote {
-background-color: rgb(66, 66, 66);
-color: white;
-font-size: 2em;
-line-height: normal;
-font-family: 'Arvo';
-font-weight: bold;
-font-style: italic;
-padding: 15px;
-border-left: 4px solid grey;
-box-shadow: 4px 4px 3px 0px #ccc;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 2em;
+    line-height: normal;
+    font-family: 'Arvo';
+    font-weight: bold;
+    font-style: italic;
+    padding: 15px;
+    border-left: 4px solid grey;
+    box-shadow: 4px 4px 3px 0px #ccc;
+    margin-bottom: 1em;
 }
 
 /*  =================================
@@ -525,6 +542,11 @@ font-style: italic;
 margin: .3em 0em;
 }
 
+div.col12.first {
+    border-top: none;
+    margin-top: 4em;
+}
+
 /*  =========================
             HEADER 2
     ========================= */
@@ -538,6 +560,10 @@ h2 {
 /*  =========================
             HEADER 3
     ========================= */
+
+.yellow h3 {
+    font-size: 3em;
+}
 
 h3 {
     font-size: 2.0em;
@@ -581,7 +607,7 @@ margin-top: 1em;
 border-top: 1px solid rgb(216, 216, 216);
 padding-top: 1em;
 letter-spacing: 0;
-line-height: 1em;
+line-height: 1.2em;
 text-align: left;
 }
 
@@ -597,19 +623,21 @@ border-left: 1px solid rgb(216, 216, 216);
 .comic-grid div {
     position: relative;
     height: 220px;
+    margin-bottom: 5em;
 }
 
 .comic-grid div div {
     position: absolute;
-background-color: #ccc;
-width: 210px;
-height: 210px;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-margin: auto;
-transition: all .2s ease;
+    background-color: #ccc;
+    width: 210px;
+    height: 210px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: all .2s ease;
 }
 
 .comic-grid div div:hover {
@@ -617,6 +645,22 @@ height: 220px;
 width: 220px;
 }
 
+.comic-grid div div span {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: -44px;
+    font-size: 2em;
+    padding-top: .2em;
+    color: rgb(169, 28, 69);
+}
+
+#home ul.nav {
+    left: 154px;
+    right: 15px;
+    top: -15px;
+}
 
 
 /* ==========================================================================

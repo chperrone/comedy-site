@@ -40,16 +40,11 @@ li#current span { color: rgb(22, 105, 135); }
     <div class="gdcenter">
         <div class="row">
 
-            <h2 class="color-c">The 1980’s ushered a new era of comedy. The success and growth
-            of the club scene in America had solidified stand-up as a sought after art form.  In the 1980s,
-            the funny business boomed.</h2>
+            <h2 class="color-c">The 1980s</h2>
 
-            <h3>With stand-up having become a popular and legitimate art form in the 1970s, the
-                1980s became the decade when it exploded. The handful of comedy clubs that
-                opened in the '70s had flourished on both coasts. In the '80s, clubs went
-                national; between 1978 and 1988, over 300 comedy clubs sprung up across the U.S.
-                Stand-up comedy was everywhere.
-            </h3>
+            <h3 class="color-c">The 1980’s ushered a new era of comedy. The success and growth
+            of the club scene in America had solidified stand-up as a sought after art form.  In the 1980s,
+            the funny business boomed.</h3>
 
         </div>
     </div>
@@ -58,7 +53,7 @@ li#current span { color: rgb(22, 105, 135); }
 
 <div class="row">
     <div class="gdcenter">
-        <div class="col12">
+        <div class="col12 first">
             <h1>Television and Sitcoms.</h1>
 
             <div class="col5">  
@@ -88,7 +83,7 @@ li#current span { color: rgb(22, 105, 135); }
                     </p>
 
                     <div class="comic-tab-wrap">
-                        <a class="comic-tab color-b" href="#" data-featherlight="#bill-cosby">
+                        <a class="comic-tab color-b" id="Bill Cosby" data-featherlight="#bill-cosby-box">
                             <div class="mic-wrap"><img src="img/microphone.png"></div>
 
                             <div class="tab-text">
@@ -100,7 +95,7 @@ li#current span { color: rgb(22, 105, 135); }
 
                 </div>  
 
-                <div class="col12">
+                <div class="col5">
             <p>For many comedians, the crossover to TV was very easy - after all, they were actors
                     at heart.  While some comedians broke through in the 80s club scene, for young
                     comics, TV shows and sitcoms were another viable way                         to
@@ -115,7 +110,7 @@ li#current span { color: rgb(22, 105, 135); }
 
         <div class="col12">
             <h1>Comic Relief</h1>
-            <div class="col7">
+            <div class="col6">
                 <h3 class="color-c">The success of stand-up and the large audiences it commanded created an opportunity for comedians to make real change.
                 </h3>
 
@@ -129,7 +124,7 @@ li#current span { color: rgb(22, 105, 135); }
                 </div>
             </div>
 
-            <div class="col5 last">
+            <div class="col5">
                 <img src="img/comic-relief.jpg">
                 <p class="f-caption">
                     Whoopi Goldberg, Robin Williams, and Billy Crystal hosting the 1988 Comic Relief event. 

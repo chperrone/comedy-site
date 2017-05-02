@@ -38,11 +38,13 @@ li#current span { color: rgb(0, 131, 96); }
 ====================================== -->
 <div class="row yellow">
     <div class="gdcenter">
-        <h2 class="color-c">The great success of stand up in the 80s was no doubt beneficial. 
+        <h2 class="color-c">The 1990s</h2>
+
+        <h3 class="color-c">The great success of stand up in the 80s was no doubt beneficial. 
             New audiences had been reached and stars had been made.  Comedians had broken through
             into mainstream culture and there was good money to be made.  Success continued into the early 90s and
             few thought that there was anywhere to go but up.
-        </h2>
+        </h3>
     </div>
 </div>
 
@@ -52,7 +54,7 @@ li#current span { color: rgb(0, 131, 96); }
 <div class="row">
     <div class="gdcenter">
 
-    <div class="col12">
+    <div class="col12 first">
         <h1>The Boom Continues</h1>
 
         <div class="col5">
@@ -124,7 +126,7 @@ li#current span { color: rgb(0, 131, 96); }
         <div class="col6 last">
             <h3 class="video-title color-c">Dana Gould - The Moth Story</h3>
             <div>
-                <iframe width="100%" height="340" src="http://www.youtube.com/embed/SsrJBds1ds4?controls=0&amp;showinfo=0&rel=0&start=120&end=180&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                <iframe width="100%" height="340" src="http://www.youtube.com/embed/SsrJBds1ds4?controls=0&amp;showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
 
             <p class="f-caption">
@@ -133,7 +135,7 @@ li#current span { color: rgb(0, 131, 96); }
             </p>
 
             <div class="comic-tab-wrap">
-                <a class="comic-tab color-b" data-featherlight="#bill-cosby">
+                <a class="comic-tab color-b" id="Dana Gould" data-featherlight="#dana-gould-box">
                     <div class="mic-wrap"><img src="img/microphone.png"></div>
 
                     <div class="tab-text">
@@ -147,19 +149,22 @@ li#current span { color: rgb(0, 131, 96); }
 
     <div class="col12">
         <h1>The Bubble Bursts</h1>
-        <div class="col5">
-            <p>Though there were many great breakthrough's in stand-up and on TV (Chris Rock's "Bring The Pain"
+
+        <div class="col7">
+            <h3 class="color-c">Though there were many great breakthrough's in stand-up and on TV (Chris Rock's "Bring The Pain"
             made him an overnight hit, Seinfeld remains one of the most beloved sitcoms of all time), towards 
             the middle of the 90s, stand-up started to decline.
-            </p>
+            </h3>
 
-            <p>The 90s proved too good to be true: as many stand-ups flooded the clubs, talent soon 
-            diminished.  Maybe it was too easy to get a gig.  Maybe there were too many people going.
-            Partially to blame, the networks incessant funding of young comics no doubt caused many sitcoms to flop.
-            The general consensus was that the quality of clubs in the 90s had gone down, and stand-up
-            wasn't nearly as cool as it had been in the 80s.  Stand up crashed and burned and no one 
-            was sure quite what would come next.
-            </p>
+            <div class="col5">
+                <p>The 90s proved too good to be true: as many stand-ups flooded the clubs, talent soon 
+                diminished.  Maybe it was too easy to get a gig.  Maybe there were too many people going.
+                Partially to blame, the networks incessant funding of young comics no doubt caused many sitcoms to flop.
+                The general consensus was that the quality of clubs in the 90s had gone down, and stand-up
+                wasn't nearly as cool as it had been in the 80s.  Stand up crashed and burned and no one 
+                was sure quite what would come next.
+                </p>
+            </div>
         </div>
     </div>
 </div><!-- Closes GDCENTER -->

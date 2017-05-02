@@ -1,5 +1,5 @@
 $(document).ready( function(){
-
+    
     $( "a.comic-tab" ).each( function() {
     var my_id = ($(this).attr( 'id' ));
 
@@ -15,7 +15,7 @@ $(document).ready( function(){
     });
 
     request.fail(function() {
-    $( '.all-lightboxes' ).append( msg );
+    $( '.all-lightboxes' ).append( 'PHP Error' );
     });
 
     });
