@@ -1,0 +1,241 @@
+[
+{	"id": "steve-martin",
+	"name": "Steve Martin",
+	"stats": {
+		"born": "August 14, 1945",
+		"mediums": "Stand-up, Film, Music, Writer, Television",
+		"years-active": "1967-present"
+	},
+	"bio": "Steve Martin is an American comedian, actor, musician, writer, producer and voice actor.  Martin came to public notice as a writer for the Smothers Brothers Comedy Hour, and later became a frequent guest on The Tonight Show. In the 1970s, Martin performed his offbeat, absurdist comedy routines before packed houses on national tours. <br><br>Since the 1980s, having branched away from stand-up comedy, Martin has become a successful actor, as well as an author, playwright, pianist and banjo player, eventually earning him an Emmy, Grammy and American Comedy awards, among other honors.  In 2004, Comedy Central ranked Martin at sixth place in a list of the 100 greatest stand-up comics.",
+	"link": "//www.youtube.com/embed/SyKD4KagqbA",
+	"link-header": "Travelling",
+	"link-caption": "Steve Martin in the 70s showcasing his signature observational comedy routine.  Largely a clean comic, Martin revolutionized the traditional role of a joke teller, poking fun at and drawing inspiration from the punchline/set-up style.",
+	"quote": "I think I did pretty well, considering I started out with nothing but a bunch of blank paper."
+},
+
+{	"id": "george-carlin",
+	"name": "George Carlin",
+	"stats": {
+		"born": "May 12, 1937",
+		"died": "June 22, 2008",
+		"mediums": "stand-up, film",
+		"years-active": "1965-present"
+	},
+	"bio": "George Carlin was an American comedian, social critic, actor, and author. Carlin was noted for his black comedy and his thoughts on politics, the English language, psychology, religion, and various taboo subjects. Carlin and his 'Seven dirty words' comedy routine were central to the 1978 U.S. Supreme Court case F.C.C. v. Pacifica Foundation, in which a 5–4 decision by the justices affirmed the government's power to regulate indecent material on the public airwaves. <br><br>In 2004, Carlin was placed second on the Comedy Central list of the 100 greatest stand-up comedians. He often commented on contemporary political issues in the United States and satirized the excesses of American culture. He was a frequent performer and guest host on The Tonight Show during the three-decade Johnny Carson era, and hosted the first episode of Saturday Night Live.",
+	"link": "//www.youtube.com/embed/uQdC-e82gmk",
+	"link-header": "Airports",
+	"link-caption": "George Carlin later on in his career.  One of the legends of stand-up, his fast past angry style inspired a generation of comics.  He released a special every year, with his content largely drawing on modern political and cultural issues.",
+	"quote": "I'm completely in favor of the separation of Church and State. My idea is that these two institutions screw us up enough on their own, so both of them together is certain death."
+},
+
+{	"id": "robin-williams",
+	"name": "Robin Williams",
+	"stats": {
+		"born": "July 21, 1951",
+		"died": "August 11, 2014",
+		"mediums": "Stand-up, Film, Television",
+		"years-active": "1976–2014"
+	},
+	"bio": "Robin Williams was an American actor and comedian. Starting as a stand-up comedian in San Francisco and Los Angeles in the mid-1970s, he is credited with leading San Francisco's comedy renaissance. After rising to fame as Mork in the TV series Mork & Mindy, Williams went on to establish a career in both stand-up comedy and feature film acting. He was known for his improvisational skills. Williams was nominated for the Academy Award for Best Actor three times and won the Academy Award for Best Supporting Actor for his performance as therapist Dr. Sean Maguire in Good Will Hunting. He received two Emmy Awards, six Golden Globe Awards, two Screen Actors Guild Awards and five Grammy Awards.",
+	"link": "//www.youtube.com/embed/Qi3Eg3c_82M",
+	"link-header": "Comic Relief - 1983",
+	"link-caption": "A video of Robin Williams performing at the 1983 Comic Relief Special.  Williams was known for his hyper-speed, frantic joke delivery.  He was largely an improvisational comic and would often venture into the crowd and draw inspiration and jokes from audience members.",
+	"quote": "You're only given a little spark of madness. You mustn't lose it."
+},
+
+{
+	"id": "richard-pryor",
+	"name": "Richard Pryor",
+	"stats": {
+		"born": "December 1, 1940",
+		"died": "December 10, 2005",
+		"mediums": "Stand-up, Film, Television",
+		"years-active": "1963-1997"
+	},
+	"bio": "Richard Pryor was an American comedian, actor, film director, social critic, satirist, writer, and MC.  Pryor was known for uncompromising examinations of racism and topical contemporary issues, which employed colorful vulgarities, and profanity, as well as racial epithets. He reached a broad audience with his trenchant observations and storytelling style. <br><br>He is widely regarded as one of the most important and influential stand-up comedians of all time.  This legacy can be attributed, in part, to the unusual degree of intimacy Pryor brought to bear on his comedy. He collaborated on many projects with actor Gene Wilder.  Pryor won an Emmy Award, and five Grammy Awards. In 1974, he also won two American Academy of Humor awards and the Writers Guild of America Award. Pryor is listed at Number 1 on Comedy Central's list of all-time greatest stand-up comedians.",
+	"link": "//www.youtube.com/embed/vA7P2yYYGs8",
+	"link-header": "Boxing",
+	"link-caption": "Respected and adored by generations of comics, Jerry Seinfeld has called Carlin the 'Picasso of our craft'. Pryor would address racial and culture issues and expose himself completely on stage.  This is an example of some of his earlier and softer comedy.",
+	"quote": "I went to Zimbabwe. I know how white people feel in America now; relaxed! Cause when I heard the police car I knew they weren't coming after me!"
+},
+
+{	"id": "joan-rivers",
+	"name": "Joan Rivers",
+	"stats": {
+		"born": "June 8, 1933",
+		"died": "September 4, 2014",
+		"mediums": "Stand-up, Television, Writer",
+		"years-active": "1959-2014"
+	},
+	"bio": "Joan Alexandra Molinsky, known as Joan Rivers, was an American actress, comedian, writer, producer, and television host noted for her often controversial comedic persona — where she was alternately self-deprecating or sharply acerbic, especially toward celebrities and politicians.  Rivers came to prominence in 1965 as a guest on The Tonight Show. <br><br>In 1986, with her own rival program, The Late Show with Joan Rivers, Rivers became the first woman to host a late night network television talk show. She subsequently hosted The Joan Rivers Show (1989-1993), winning a Daytime Emmy for Outstanding Talk Show Host. Rivers is the author of 12 best-selling memoir and humor books and numerous comedy albums. In 1968, noted New York Times television critic Jack Gould (1914–1993) called Rivers 'quite possibly the most intuitively funny woman alive.'",
+	"link": "//www.youtube.com/embed/EpPCFoXXhF0",
+	"link-header": "The Difference Between Men and Women",
+	"link-caption": "A pioneer in stand-up and an inspiration to many women, Joan Rivers was one of the first to address issues and differences between men and women.  She enjoyed a long career in stand-up and remains a legend.",
+	"quote": "Part of my act is meant to shake you up. It looks like I'm being funny, but I'm reminding you of other things. Life is tough, darling. Life is hard. And we better laugh at everything; otherwise, we're going down the tube."
+},
+
+{
+	"id": "bill-cosby",
+	"name": "Bill Cosby",
+	"stats": {
+		"born": "July 12, 1937",
+		"mediums": "Stand-up, Television",
+		"years-active": "1962-present"
+	},
+	"bio": "Bill Cosby, Jr. is an American stand-up comedian, actor, author, television producer, educator, musician and activist. A veteran stand-up performer, he got his start at the 'hungry i' in San Francisco and various other clubs, then landed a starring role in the 1960s action show I Spy. He later starred in his own sitcom, The Bill Cosby Show. He was one of the major performers on the children's television series The Electric Company during its first two seasons, and created the educational cartoon comedy series Fat Albert and the Cosby Kids, about a group of young friends growing up in the city. Cosby also acted in a number of films.  During the 1980s, Cosby produced and starred in one of the decade's defining sitcoms, The Cosby Show, which aired eight seasons from 1984 to 1992. It was the number one show in America for five straight years (1985–89).",
+	"link": "//www.youtube.com/embed/zuamlBQ2aW4",
+	"link-header": "Make Some Breakfast for the Children",
+	"link-caption": "Bill  Cosby is revered as one of the grandfathers of stand-up, a pioneering black comedian who had a large hand in joining black comedians and white audiences.  This clip is from his class special 'Himself'",
+	"quote": "Through humor, you can soften some of the worst blows that life delivers. And once you find laughter, no matter how painful your situation might be, you can survive it."
+},
+
+{
+	"id": "eddie-murphy",
+	"name": "Eddie Murphy",
+	"stats": {
+		"born": "April 3, 1961",
+		"mediums": "Stand-up, Film, Television",
+		"years-active": "1980-present"
+	},
+	"bio": "Eddie Murphy is an American comedian, actor, writer, singer, and director.  Box-office takes from Murphy's films make him the 4th-highest grossing actor in the United States. He was a regular cast member on Saturday Night Live from 1980 to 1984 and has worked as a stand-up comedian. He was ranked no. 10 on Comedy Central's list of the 100 Greatest Stand-ups of All Time.  He has received Golden Globe Award nominations for his performances in 48 Hrs., Beverly Hills Cop series, Trading Places, and The Nutty Professor. Eddie Murphy's work as a voice actor includes Thurgood Stubbs in The PJs, Donkey in the Shrek series and the Chinese dragon Mushu in Disney's Mulan.  As of 2014, films featuring Murphy have grossed over 3.8 billion in the United States and Canada box office, and 6.6 billion worldwide.",
+	"link": "//www.youtube.com/embed/0bXpQVJwlsY",
+	"link-header": "The Ice Cream Man",
+	"link-caption": "While many people may think of films like 'Shrek' and 'The Nutty Professor' when speaking of Eddie Murphy, few realize that he got his start in stand-up in the early 80s.  This clip is from his special 'Delirious', which Chris Rock has noted as an incredibly important work.",
+	"quote": "There's this little box that African-American actors have to work in, in the first place, and I was able to rise above that box. I could have done a bunch of movies where I stayed as the Axel Foley or Reggie Hammond persona. But I didn't want to be doing the same thing all the time. Every now and then, you crash and burn, but that's part of it."
+},
+
+{
+	"id": "rodney-dangerfield",
+	"name": "Rodney Dangerfield",
+	"stats": {
+		"born": "November 22, 1921",
+		"died": "October 5, 2004",
+		"mediums": "Stand-up, Film",
+		"years-active": "1940-1949, 1962-2004"
+	},
+	"bio": "Rodney Dangerfield was an American comedian and actor, known for the catchphrase 'I don't get no respect!' and his monologues on that theme. His comedy drew largely on self-depricating humor, discussing trouble in his home-life his living situation. He would often discuss issues and conflicts in his marriage. He is also remembered for his 1980s film roles, especially in Easy Money, Caddyshack, and Back to School.",
+	"link": "//www.youtube.com/embed/DODvxqkUlac",
+	"link-header": "1973 Stand-Up Appearance",
+	"link-caption": "Rodney Dangerfield is a classic comedian.  This clip showcases his signature self-depricating style.",
+	"quote": "We sleep in separate rooms, we have dinner apart, we take separate vacations - we're doing everything we can to keep our marriage together."
+},
+
+{
+	"id": "dana-gould",
+	"name": "Dana Gould",
+	"stats": {
+		"born": "August 24, 1964",
+		"mediums": "Stand-up, Television, Writing",
+		"years-active": "1982-present"
+	},
+	"bio": "Dana John Gould is an American stand-up comedian and comedy writer who has been featured on HBO, Showtime, and Comedy Central. He came to prominence in the 1980s Boston comedy scene.  He continued to develop his act and in the late 90s he began writing for 'The Simpsons' and remained there for seven years.  Patton Oswalt has called Dana Gould one of the leaders of the west coast Alternative and Surreal comedy scene.  He is widely respected among comedians.",
+	"link": "//www.youtube.com/embed/5kBbNhadzn4",
+	"link-header": "On the Dennis Miller Show",
+	"link-caption": "This clip of Dana Gould is from an old talk show run by Dennis Miller.  It displays some of Dana's impeccable alternative and surreal skills.",
+	"quote": "Suspicious Suicide Note: 'Dear world, you're probably wondering why I tied my hands behind my back and sawed my head off...'"
+},
+
+{
+	"id": "sarah-silverman",
+	"name": "Sarah Silverman",
+	"stats": {
+		"born": "December 1, 1970",
+		"mediums": "Stand-up, Film, Television, Writer",
+		"years-active": "1992-present"
+	},
+	"bio": "Sarah Silverman is an American stand-up comedian, writer, producer, and actress. Her satirical comedy addresses social taboos and controversial topics such as racism, sexism, and religion, having her comic character endorse them in an ironic fashion.  Silverman was a writer and occasional performer for 18 weeks on Saturday Night Live and starred in and produced The Sarah Silverman Program, which ran from 2007 to 2010 on Comedy Central. She released an autobiography The Bedwetter in 2010. She has also appeared in other television programs.",
+	"link": "//www.youtube.com/embed/88ajwUTPF98",
+	"link-header": "Dead Nana",
+	"link-caption": "One of the titans in alt-comedy, Sarah Silverman is a master of awkwardness and tension in her performances.  In this clip she continually flips the mood and unsettles the audience.",
+	"quote": "I can't believe how much time has passed. The first time I did stand-up I was 17, and I was really a stand-up once I was 19 in New York, and now I'm 41, and I still feel like I haven't found myself onstage."
+},
+
+{
+	"id": "patton-oswalt",
+	"name": "Patton Oswalt",
+	"stats": {
+		"born": "January 27, 1969",
+		"mediums": "Stand-up, Film, Television",
+		"years-active": "1988-present"
+	},
+	"bio": "Patton Oswalt is an American stand-up comedian, writer, actor and voice actor known for roles such as Spencer Olchin in the sitcom 'The King of Queens' and for voicing Remy in the film 'Ratatouille'.  In the 90s, Oswalt was a key player in the alternative comedy scene, joining groups like 'The Comedians of Comedy', along with Sarah Silverman and Dana Gould.  Patton Oswalt has been sited by famous comics such as Robin Williams as a prolific talent.",
+	"link": "//www.youtube.com/embed/tfan5MacmsI",
+	"link-header": "KFC Bowls",
+	"link-caption": "Cited by Robin Williams as a brilliant talent, Patton Oswalt was part of the alt-comedy scene in the 90s.  He seems a little stressed out here but aptly showcases his storytelling prowess.",
+	"quote": "If you hit a midget on the head with a stick, he turns into 40 gold coins."
+},
+
+{	"id": "chris-rock",
+	"name": "Chris Rock",
+	"stats": {
+		"born": "February 7, 1965",
+		"mediums": "Stand-up, Film, Television, Writer",
+		"years-active": "1965-present"
+	},
+	"bio": "Chris Rock is an American comedian, actor, screenwriter, television producer, film producer, and director.  After working as a standup comic and appearing in small film roles, Rock came to wider prominence as a cast member of Saturday Night Live in the early 1990s. He went on to more prominent film roles, and a series of acclaimed comedy specials for HBO.  He was voted as the fifth greatest stand-up comedian of all time by Comedy Central.",
+	"link": "//www.youtube.com/embed/M902ZJHzaLE",
+	"link-header": "Being In Love",
+	"link-caption": "Chris Rock is one of the leaders in stand-up right now.  He broke onto the scene with his 'Bring The Pain' special.  Here he shows off his dark side.",
+	"quote": "I kind of keep my personality in my pocket a lot. When I start to do stand-up, that's not my true personality either. It's the personality of a guy who hasn't been able to say what he wanted to say."
+},
+
+{
+	"id": "dane-cook",
+	"name": "Dane Cook",
+	"stats": {
+		"born": "March 18, 1972",
+		"mediums": "Stand-up, Film, Television",
+		"years-active": "1990-present"
+	},
+	"bio": "Dane Cook is an American stand-up comedian and film actor.  He has released five comedy albums. In 2006, his album 'Retaliation' became the highest charting comedy album in 28 years and went platinum. He is known for his use of observational, often vulgar, and sometimes dark comedy.  He is credited as one of the first comedians to use a personal webpage and MySpace to build a large fan base and in 2006 was described as 'alarmingly popular'. As an actor, Cook has appeared in films since 1997.",
+	"link": "//www.youtube.com/embed/U6lDJb-0UVg",
+	"link-header": "On Dating",
+	"link-caption": "A rock star in the early 2000's, Dane Cook changed the comedy scene and was one of the most succesful comics after the stand-up bust.  Here, he performs in front of a stadium audience.",
+	"quote": "I'm quitting the business today. I'm going to open up an appliance store, I've always really been into toasters. I'm giving it all up."
+},
+
+{
+	"id": "louis-ck",
+	"name": "Louis CK",
+	"stats": {
+		"born": "September 12, 1967",
+		"mediums": "Stand-Up, Film, Television",
+		"years-active": "1984-present"
+	},
+	"bio": "Louis Szekely, known professionally as Louis C.K., is a Mexican and American comedian, editor, writer, producer, director, and actor.  He is the creator of the highly acclaimed FX comedy series Louie. C.K. is noteworthy for innovating direct-to-fan sales of tickets to his stand-up shows and DRM-free video concert downloads via his website. Over the course of his career, he has been nominated for 25 Primetime Emmy Awards, winning writing awards for Louie and his stand-up specials Live at the Beacon Theater (2011) and Oh My God (2013).",
+	"link": "//www.youtube.com/embed/UTULoJlD_V4",
+	"link-header": "On Dating",
+	"link-caption": "Perhaps one of the most famous comedians right now, Louis CK has had a great couple of years.  He continues to strengthen his stand-up skills.  In this clip, he demonstrates his deranged observational style.",
+	"quote": "I like pressure. Pressure doesn't make me crack. It's enabling. I eat pressure, and there might be times when I get a bad feeling in my gut that this might be too much, but you feel pressure when you're not doing something, you know?"
+},
+
+{
+	"id": "dave-chappelle",
+	"name": "Dave Chappelle",
+	"stats": {
+		"born": "August 24, 1973",
+		"mediums": "Stand-Up, Film, Television",
+		"years-active": "1984-present"
+	},
+	"bio": "Dave Chappelle is an American comedian, screenwriter, television and film producer, and actor. After beginning his film career in 1993.In 2003, he became more widely known for his sketch comedy television series, Chappelle's Show, co-written with Neal Brennan, which ran until his retirement from the show two years later.  The show continues to run in popular late-night syndication and on television networks around the world. Comedy Central ranks him No. 43 in 'the 100 Greatest Stand-Ups of All Time.'  He lives with his family in Yellow Springs, Ohio, and continues to perform stand-up.",
+	"link": "//www.youtube.com/embed/VFHpvPwq2i8",
+	"link-header": "Police Brutality",
+	"link-caption": "One of the most popular comedians of the early 2000s, Dave Chappelle ran a succesful show for about 3 seasons.  He dealt mostly with racial issues and being black in America.  In this clip, he speaks out against police brutality.",
+	"quote": "I just always loved stand-up. It's like magic. You say something, and a whole room full of people laughs together. Say something else, they laugh again. The fact that people come to see that and participate in that... I don't know, it's just like magic."
+},
+
+{
+	"id": "maria-bamford",
+	"name": "Maria Bamford",
+	"stats": {
+		"born": "September 3, 1970",
+		"mediums": "Stand-Up, Voice Acting",
+		"years-active": "1989-present"
+	},
+	"bio": "Maria Bamford is an American stand-up comedian, actress and voice actress. She is best known for her portrayal of her dysfunctional family and self-deprecating comedy involving jokes about depression and anxiety. Her comedy style is surreal, and incorporates voice impressions of various character types.",
+	"link": "//www.youtube.com/embed/OZoDIIrp2r4",
+	"link-header": "Paula Deen",
+	"link-caption": "An underground comic, Maria Bamford has been around since the 90s.  She introduces many intricate characters into her performances.",
+	"quote": "I'd like to create a lovable character for schizophrenia; it doesn't have a celebrity spokesperson because by the time somebody's schizophrenic they've lost all their teeth."
+}
+]

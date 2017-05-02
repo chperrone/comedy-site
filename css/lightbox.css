@@ -1,0 +1,83 @@
+/*  FEATHERLIGHT OVERRIDES  */
+
+.featherlight .featherlight-inner {
+	display: block;
+	height: 100%;
+}
+
+.featherlight-content {
+	margin-top: 9em;
+	width: 84em;
+	height: 54em;
+	margin-bottom: 1em;
+}
+
+/*  CUSTOM FEATHERLIGHT STYLES  */
+
+.featherlight .featherlight-close-icon {
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+	right: 0;
+	line-height: 95px;
+	width: 68px;
+	cursor: pointer;
+	text-align: center;
+	background: #fff;
+	background: rgba(169, 28, 69, 0);
+	color: rgb(217, 186, 64);
+	font-size: 60px;
+}
+
+div.featherlight-content > span:hover {
+	cursor: pointer;
+}
+
+div.light-box div.col12 {
+	/*background-color: rgb(169, 28, 69);*/
+	border-bottom: 1px solid rgb(217, 186, 64);
+	width: 100%;
+	color: white;
+	margin: 0;
+}
+
+div.media {
+	background-color: #ccc;
+	width: 50%;
+	padding: 20px;
+}
+
+div.light-box h1 {
+	display: inline-block;
+	color: inherit;
+	padding-left: 25px;
+	float: left;
+	margin: 6px;
+}
+
+div.light-box ul {
+	display: block;
+	color: inherit;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgb(217, 186, 64);
+	list-style: none;
+}
+div.light-box ul li {
+	font-size: 1.8em;
+	padding: 0;
+}
+
+div.light-box div.content {
+	height: 100%;
+}
+
+div.content div.text {
+	padding-left: 40px;
+	padding-top: 11px;
+}
+
+.featherlight-inner p {
+	padding-left: 10px;
+	margin: 0;
+}

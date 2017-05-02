@@ -1,20 +1,22 @@
 <div class="header color-b">
 
-	<div class="links">
-		<a href="index.php">Home</a>
-		<span>|</span>
-		<a href="grid.php">Browse <span>by Comedians</span></a>
+	<div id="links">
+		<a class="links" id="home" href="index.php">Home</a>
+		<a class="links" id="browse" style="float: right; padding-right: 1em" href="grid.php">
+			<img id="nav-mic" src="img/microphone.png">
+		Browse Comedians</a>
 	</div>
 
-	<div class="gdcenter"></div>
-
+	<div class="gdcenter">
 		<ul class="nav">
-	        <li><a href="70s.php"></a><span>70s</span></li>
-	        <li><a href="80s.php"></a><span>80s</span></li>
-	        <li><a href="90s.php"></a><span>90s</span></li>
-	        <li><a href="00s.php"></a><span>00s</span></li>
-	        <li><a href="10s.php"></a><span>10s</span></li>
+	        <li><a href="70s.php"><span class="color-c">70s</span></a></li>
+	        <li><a href="80s.php"><span class="color-c">80s</span></a></li>
+	        <li><a href="90s.php"><span class="color-c">90s</span></a></li>
+	        <li><a href="00s.php"><span class="color-c">00s</span></a></li>
+	        <li><a href="10s.php"><span class="color-c">10s</span></a></li>
     	</ul>
+	</div>
 
 </div> <!--- Closes Header -->
-<div class="bottom"></div>
+<div class="bottom">
+</div>

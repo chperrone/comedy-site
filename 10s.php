@@ -39,11 +39,13 @@ li#current span { color: rgb(197, 105, 40); }
 <div class="row yellow">
     <div class="gdcenter">
         <div class="row">
-            <h2 class="color-c">The 2010s is providing a new landscape for comedians to share their comedy.  
+        <h2 class="color-c">The 1980s</h2>
+
+            <h3 class="color-c">The 2010s is providing a new landscape for comedians to share their comedy.  
             Computers are now completely ingrained into human life, people are reaching out and interacting
             with stand up in new ways.  The most succesful comedians utilize these facts and make commentary
             about life as it is now.
-            </h2>  
+            </h3>  
         </div>
     </div>
 </div>
@@ -54,24 +56,42 @@ li#current span { color: rgb(197, 105, 40); }
 <div class="row">
     <div class="gdcenter">
 
-        <div class="col12">
+        <div class="col12 first">
         
-            <h1 class="first-h1">New Mediums</h1>
-
-            <div class="col6">
-                <h3 class="color-c">We live in a world now where creativity and originality are more crucial 
+            <h1>New Mediums</h1>
+            <h3 class="color-c">We live in a world now where creativity and originality are more crucial 
                 then ever for entertainers of any kind to be succesful.  The most interesting comics, then, are
                 the ones who adapt to new trends and technologies.  Their stand-up routines are culturally relevant
                 to things that are happening to us: cellphones and computers, the internet, and digital isolation.
                 </h3>
 
+            <div class="col6">
+
                 <div class="col5">
                     <p>
                     The current state of stand-up comedy is alive and well.  Comedians like Aziz Ansari,
                     Kevin Hart and others are still carrying on the tradition of spoken word storytelling.  
-                    Other comedians, however, are exploring more varied mediums of comedy.
+                    </p>
+                    <p>
+                    Other comedians, however, are exploring more varied mediums of comedy.  Maria Bamford, a player in the 90s Alternative scene, released her Special, Special, Special: an hour long stand-up special which she wrote, produced performed in her living room.  Her only audience members were a few sound men and her parents.  The special is interwoven with her signature scizophrenic stand-up and sequences of her doing mundane tasks like feeding her dog or baking cookies.
                     </p>
                 </div>
+            </div>
+
+            <div class="col6 last">
+                <img src="img/maria-bamford.jpg">
+                <p class="f-caption">A still from Maria Bamford's 'Special, Special, Special' a program which she produced and performed entirely from her living room.  Her audience?  Her mother and father...
+                </p>
+                <div class="comic-tab-wrap">
+                <a class="comic-tab color-b" id="Maria Bamford" data-featherlight="#maria-bamford-box">
+                    <div class="mic-wrap"><img src="img/microphone.png"></div>
+
+                    <div class="tab-text">
+                        <p>learn more about</p>
+                        <h3>Maria Bamford</h3>
+                    </div>
+                </a> 
+            </div>  
             </div>
             
         </div>
@@ -134,7 +154,7 @@ li#current span { color: rgb(197, 105, 40); }
                 <img src="img/Maron.png">
 
                 <p class="f-caption">
-                    Marc Maron
+                    Originally a stand-up, Marc Maron's 'WTF Podcast' is one of the most succesful podcasts around and has enabled him to start other projects including his own TV show titled 'Maron'.
                 </p>
             </div>
             
@@ -142,8 +162,20 @@ li#current span { color: rgb(197, 105, 40); }
     </div>  <!-- CLOSE GDCENTER -->
 </div>  <!-- CLOSE ROW -->
 
-<div class="footer-wrap">
-    <div class="footer"></div>
+<div class="footer">
+        <a href="grid.php">
+            <img class="full-bleed" src="img/kevin-hart.jpg">
+            <div>
+                <h1 class="grey">continue to the <span class="color-c">Comic Grid</span></h1>
+            </div>
+        </a>
+    </div>
+
+<!-- =============================
+     LIGHTBOXES 
+     ============================= -->
+
+<div class="all-lightboxes">
 </div>
 
 <?php include( 'php/include-foot.php' ); ?>
