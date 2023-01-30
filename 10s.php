@@ -166,7 +166,7 @@ li#current span { color: rgb(197, 105, 40); }
         <a href="grid.php">
             <img class="full-bleed" src="img/kevin-hart.jpg">
             <div>
-                <h1 class="grey">continue to the <span class="color-c">Comic Grid</span></h1>
+                <h1 class="white">continue to the <span class="color-c">Comic Grid</span></h1>
             </div>
         </a>
     </div>

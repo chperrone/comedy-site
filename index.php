@@ -51,7 +51,7 @@ clear: both;
 }
 </style>
     <div class="color-b">
-        <h1 style="font-style: italic; text-align: center" class="grey">
+        <h1 style="font-style: italic; text-align: center" class="white">
             Modern American Stand-Up Comedy
         </h1>
         <div id="bar"></div>

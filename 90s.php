@@ -174,7 +174,7 @@ li#current span { color: rgb(0, 131, 96); }
     <a href="00s.php">
         <img class="full-bleed" src="img/seinfeld.jpg">
         <div>
-            <h1 class="grey">continue to the <span class="color-c">2000s</span></h1>
+            <h1 class="white">continue to the <span class="color-c">2000s</span></h1>
         </div>
     </a>
 </div>

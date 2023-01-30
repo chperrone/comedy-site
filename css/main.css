@@ -222,8 +222,8 @@ div.first-block {
     color: #bbb;
 }
 
-.red {
-    /*background-color: rgb(169, 28, 69);*/
+.white {
+    color: white;
 }
 
 .red-text {
@@ -251,7 +251,7 @@ top: -2px;
 border: 2px solid #bbb;
 border-radius: 50%;
 padding: 3px;
-background-color: #ccc;
+background-color: white;
 position: relative;
 }
 
@@ -405,7 +405,7 @@ div#links a:hover {
 
 .comic-tab div.mic-wrap {
     border: 3px solid #AAA;
-    background-color: #ccc;
+    background-color: white;
     border-radius: 50%;
     padding: 10px;
 }
@@ -414,7 +414,7 @@ div#links a:hover {
     margin-top: 10px;
     padding-right: 24px;
     padding-left: 12px;
-    color: #ccc;
+    color: white;
     text-align: left;
 }
 

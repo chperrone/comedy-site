@@ -140,7 +140,7 @@ li#current span { color: rgb(22, 105, 135); }
         <a href="90s.php">
             <img class="full-bleed" src="img/richard-pryor.png">
             <div>
-                <h1 class="grey">continue to the <span class="color-c">1990s</span></h1>
+                <h1 class="white">continue to the <span class="color-c">1990s</span></h1>
             </div>
         </a>
 </div>
