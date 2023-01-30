@@ -141,7 +141,7 @@
         <a href="10s.php">
             <img class="full-bleed" src="img/dave-chappelle.jpg">
             <div>
-                <h1 class="grey">continue to the <span class="color-c">2010s</span></h1>
+                <h1 class="white">continue to the <span class="color-c">2010s</span></h1>
             </div>
         </a>
     </div>

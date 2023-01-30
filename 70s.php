@@ -196,7 +196,7 @@ li#current a span { color: rgb(169, 28, 69); }
     <a href="80s.php">
         <img class="full-bleed" src="img/dave+johnny.jpg">
         <div>
-            <h1 class="grey">continue to the <span class="color-c">1980s</span></h1>
+            <h1 class="white">continue to the <span class="color-c">1980s</span></h1>
         </div>
     </a>
 </div>

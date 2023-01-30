@@ -86,22 +86,10 @@
                 <span>Joan Rivers</span>
             </div>
         </div>
-        <div class="col3" data-featherlight="#bill-cosby-box">
-            <div id="Bill Cosby">
-                <img src="img/headshots/bill-cosby.jpg">
-                <span>Bill Cosby</span>
-            </div>
-        </div>
         <div class="col3" data-featherlight="#eddie-murphy-box">
             <div id="Eddie Murphy">
                 <img src="img/headshots/eddie-murphy.jpg">
                 <span>Eddie Murphy</span>
-            </div>
-        </div>
-        <div class="col3 last" data-featherlight="#rodney-dangerfield-box">
-            <div id="Rodney Dangerfield">
-                <img src="img/headshots/rodney-dangerfield.jpg">
-                <span>Rodney Dangerfield</span>
             </div>
         </div>
         <div class="col3" data-featherlight="#dana-gould-box">
@@ -110,7 +98,7 @@
                 <span>Dana Gould</span>
             </div>
         </div>
-        <div class="col3" data-featherlight="#sarah-silverman-box">
+        <div class="col3 last" data-featherlight="#sarah-silverman-box">
             <div id="Sarah Silverman">
                 <img src="img/headshots/sarah-silverman.jpg">
                 <span>Sarah Silverman</span>
@@ -122,22 +110,10 @@
                 <span>Patton Oswalt</span>
             </div>
         </div>
-        <div class="col3 last" data-featherlight="#chris-rock-box">
+        <div class="col3" data-featherlight="#chris-rock-box">
             <div id="Chris Rock">
                 <img src="img/headshots/chris-rock.png">
                 <span>Chris Rock</span>
-            </div>
-        </div>
-        <div class="col3" data-featherlight="#dane-cook-box">
-            <div id="Dane Cook">
-                <img src="img/headshots/dane-cook.jpg">
-                <span>Dane Cook</span>
-            </div>
-        </div>
-        <div class="col3" data-featherlight="#louis-ck-box">
-            <div id="Louis CK">
-                <img src="img/headshots/louis-ck.jpg">
-                <span>Louis CK</span>
             </div>
         </div>
         <div class="col3" data-featherlight="#dave-chappelle-box">
